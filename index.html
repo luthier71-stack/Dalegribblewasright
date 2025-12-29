@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -13,6 +12,115 @@
   <header class="site-header">
     <div class="wrap">
       <div class="brand">
-        <div class="seal" aria-hidden="true">DG
+        <div class="seal" aria-hidden="true">DG</div>
+        <div>
+          <h1>Dale Gribble Was Right</h1>
+          <p class="tagline">A satirical blog that begins responsibly and escalates… gradually.</p>
+        </div>
+      </div>
 
-          
+      <nav class="nav">
+        <a href="#latest">Latest</a>
+        <a href="#about">About</a>
+        <a href="#disclaimer">Disclaimer</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <h2>Welcome to the Rabbit Hole (With Handrails)</h2>
+      <p>
+        This is a satire project: we compare classic <em>King of the Hill</em> Dale moments to real-world reporting,
+        using humor, sarcasm, and cartoon logic. We start light. We ramp up over time.
+      </p>
+      <div class="cta-row">
+        <a class="btn" href="#latest">Read the Latest Briefings</a>
+        <a class="btn btn-ghost" href="#about">What is this?</a>
+      </div>
+    </section>
+
+    <section id="disclaimer" class="callout">
+      <strong>Disclaimer:</strong> This website is satire and commentary. It does not claim that any conspiracy theory is true.
+      If you are taking this literally, please drink some water and consider touching grass (respectfully).
+    </section>
+
+    <section id="latest" class="section">
+      <div class="section-head">
+        <h3>Latest Briefings</h3>
+        <p class="muted">Light at first. Spicier later. Pocket sand optional.</p>
+      </div>
+
+      <div class="grid">
+        <article class="card">
+          <div class="pill">Threat Level: Mild</div>
+          <h4>Pilot: Pocket Sand & Plausible Deniability</h4>
+          <p>
+            In 1997, Dale warned us about shadowy forces and the importance of grit. In 2025,
+            headlines provided the grit. This is where we start: reasonable parallels, gentle satire.
+          </p>
+          <a class="link" href="#" aria-label="Read more: Pocket Sand & Plausible Deniability">Read more →</a>
+        </article>
+
+        <article class="card">
+          <div class="pill">Threat Level: Noticeable</div>
+          <h4>Rusty Shackleford vs. Modern Surveillance</h4>
+          <p>
+            Was Dale paranoid—or just early? A calm comparison of cartoon paranoia and modern data collection.
+            (Calmness not guaranteed in later chapters.)
+          </p>
+          <a class="link" href="#" aria-label="Read more: Rusty Shackleford vs. Modern Surveillance">Read more →</a>
+        </article>
+
+        <article class="card">
+          <div class="pill">Threat Level: Pending</div>
+          <h4>Alien Abductions: Still Pending</h4>
+          <p>
+            Some things Dale believed remain unproven. We respect that. For now. A short post about
+            what we’re <em>not</em> claiming—yet.
+          </p>
+          <a class="link" href="#" aria-label="Read more: Alien Abductions: Still Pending">Read more →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-head">
+        <h3>About this project</h3>
+        <p class="muted">Satire, structure, and a slow descent.</p>
+      </div>
+
+      <div class="two-col">
+        <div class="card">
+          <h4>The format</h4>
+          <ol class="list">
+            <li><strong>What Dale Said</strong> (episode moment, quote, context)</li>
+            <li><strong>What Actually Happened</strong> (mainstream reporting, documents, facts)</li>
+            <li><strong>The Comparison</strong> (satirical commentary + “Threat Level”)</li>
+          </ol>
+        </div>
+
+        <div class="card">
+          <h4>Editorial policy (yes, really)</h4>
+          <ul class="list">
+            <li>We cite reputable sources when referencing real events.</li>
+            <li>We label satire clearly (you’re looking at it right now).</li>
+            <li>We start with the plausible and escalate into cartoon territory over time.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>
+        © <span id="y"></span> DaleGribbleWasRight.com · Not affiliated with Fox, Mike Judge,
+        or any intelligence agency (officially).
+      </p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
