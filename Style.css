@@ -1,13 +1,19 @@
-
 body {
   font-family: Arial, sans-serif;
-  background: #111;
+  margin: 0;
+  padding: 0;
+  background-color: #111;
   color: #eee;
 }
 
 h1 {
   color: #ffcc00;
   text-align: center;
+  margin-top: 20px;
 }
 
-p { text-align: center; }
+p {
+  text-align: center;
+}
+
+/* Add any additional styling here */
